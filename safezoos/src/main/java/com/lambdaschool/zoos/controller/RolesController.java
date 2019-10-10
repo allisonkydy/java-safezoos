@@ -1,7 +1,7 @@
 package com.lambdaschool.zoos.controller;
 
-import com.lambdaschool.oauth2.models.Role;
-import com.lambdaschool.oauth2.services.RoleService;
+import com.lambdaschool.zoos.model.Role;
+import com.lambdaschool.zoos.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

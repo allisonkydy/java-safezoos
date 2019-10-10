@@ -1,7 +1,7 @@
 package com.lambdaschool.zoos.controller;
 
-import com.lambdaschool.oauth2.models.Useremail;
-import com.lambdaschool.oauth2.services.UseremailService;
+import com.lambdaschool.zoos.model.Useremail;
+import com.lambdaschool.zoos.service.UseremailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

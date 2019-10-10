@@ -33,4 +33,13 @@ public class AnimalServiceImpl implements AnimalService
         }
         return animal;
     }
+
+    @Override
+    public ArrayList<Animal> findAnimalsZooCount()
+    {
+//        ArrayList<Animal> list = new ArrayList<>();
+//        animalrepos.findAnimalsZooCount().iterator().forEachRemaining(list::add);
+//        return list;
+        return animalrepos.findAnimalsZooCount();
+    }
 }

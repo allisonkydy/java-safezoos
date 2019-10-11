@@ -1,8 +1,10 @@
 package com.lambdaschool.zoos.service;
 
 import com.lambdaschool.zoos.model.Animal;
+import com.lambdaschool.zoos.view.AnimalsZooCount;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface AnimalService
 {
@@ -10,5 +12,5 @@ public interface AnimalService
 
     Animal findAnimalByType(String type);
 
-    ArrayList<Animal> findAnimalsZooCount();
+    List<AnimalsZooCount> findAnimalsZooCount();
 }

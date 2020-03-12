@@ -33,4 +33,13 @@ public class AnimalController
         Animal a = animalService.findAnimalByType(type);
         return new ResponseEntity<>(a, HttpStatus.OK);
     }
+
+    // GET /animals/count
+    // returns a JSON object list listing the animals and a count of how many zoos where they can be found.
+    @GetMapping(value = "/count",
+                produces = {"application/json"})
+    public ResponseEntity<?> listAnimalsZooCount()
+    {
+        return new ResponseEntity<>(animalService.findAnimalsZooCount(), HttpStatus.OK);
+    }
 }
